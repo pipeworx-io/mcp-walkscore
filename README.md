@@ -2,12 +2,13 @@
 
 Walk Score MCP — wraps the Walk Score API (walkscore.com)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1209+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
+| `walkscore_score` | How walkable is <address> — Walk/Transit/Bike Score (0-100) plus a human-readable description of walkability, transit, and biking. NOTE: the Walk Score API requires lat AND lon AND address to all be provided — the coordinates locate the point and the address disambiguates it. Example: walkscore_score({ address: "1119 8th Avenue, Seattle, WA 98101", lat: 47.6085, lon: -122.3295, transit: true, bike: true, _apiKey: "your-key" }) |
 
 ## Quick Start
 
@@ -23,7 +24,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1209+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -47,7 +48,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
