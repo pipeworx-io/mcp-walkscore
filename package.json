@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-walkscore",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Walk Score MCP — wraps the Walk Score API (walkscore.com)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-walkscore": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "walkscore"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-walkscore"
+    "url": "git+https://github.com/pipeworx-io/mcp-walkscore.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-7eb7ab3b58ee4ea54a4ad3334fd716f7c237d4c07e5c351061db645b1536f224",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }

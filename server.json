@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/walkscore",
   "title": "Walkscore",
   "description": "Walk Score MCP — wraps the Walk Score API (walkscore.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/walkscore",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-walkscore",
