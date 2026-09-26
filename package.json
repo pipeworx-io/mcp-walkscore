@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-walkscore",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Walk Score MCP — wraps the Walk Score API (walkscore.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-7eb7ab3b58ee4ea54a4ad3334fd716f7c237d4c07e5c351061db645b1536f224",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-d5c98de73a93c13709d308acf08e2b728d7c7b911b8bbbc9b083767d987056be",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
