@@ -1,0 +1,41 @@
+[
+  {
+    "name": "walkscore_score",
+    "description": "How walkable is <address> — Walk/Transit/Bike Score (0-100) plus a human-readable description of walkability, transit, and biking. NOTE: the Walk Score API requires lat AND lon AND address to all be provided — the coordinates locate the point and the address disambiguates it. Example: walkscore_score({ address: \"1119 8th Avenue, Seattle, WA 98101\", lat: 47.6085, lon: -122.3295, transit: true, bike: true, _apiKey: \"your-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string",
+          "description": "Full street address, e.g. \"1119 8th Avenue, Seattle, WA 98101\""
+        },
+        "lat": {
+          "type": "number",
+          "description": "Latitude of the location, e.g. 47.6085"
+        },
+        "lon": {
+          "type": "number",
+          "description": "Longitude of the location, e.g. -122.3295"
+        },
+        "transit": {
+          "type": "boolean",
+          "description": "Set true to also return the Transit Score (public transit availability)"
+        },
+        "bike": {
+          "type": "boolean",
+          "description": "Set true to also return the Bike Score (bikeability)"
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Walk Score API key (get one free at walkscore.com/professional/api.php)"
+        }
+      },
+      "required": [
+        "address",
+        "lat",
+        "lon",
+        "_apiKey"
+      ]
+    }
+  }
+]
