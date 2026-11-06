@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-walkscore",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Walk Score MCP — wraps the Walk Score API (walkscore.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "walkscore",
     "gatewaySlug": "walkscore",
-    "sourceHash": "v1-db5c2705b10bd4ebc08fb371475fe158e031d857b0bf52b39ce59d07fb6e57e9",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-adc4b785201b505958997e6dbb01c7e1d6a3a887a54d372ecbe446d41d19c8bc",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
